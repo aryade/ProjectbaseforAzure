@@ -1,6 +1,5 @@
 *** Settings ***
 Library    SeleniumLibrary
-Variables    ../Resources/Web_Elements.py
 
 *** Variables ***
 ${INPUTITEMXPATHLocator}   //input[@id='twotabsearchtextbox']   

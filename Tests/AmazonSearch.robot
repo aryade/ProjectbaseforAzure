@@ -4,7 +4,7 @@ Resource    ../Resources/PageObject/Common_Keywords.robot
 Resource    ../Resources/PageObject/Homepage_keywords.robot
 Resource    ../Resources/PageElements/Homepagelocators.robot
 
-Variables    ../Resources/Web_Elements.py
+
 Suite Setup    Common_Keywords.Start test  
 Suite Teardown    Common_Keywords.Complete testcase
 
