@@ -35,7 +35,9 @@ steps:
   displayName: 'Run robot tests'
 
 - task: PublishTestResults@2
-  displayName: 'Publish Test Results'
-  continueOnError: true
   inputs:
-    testResultsFiles: outputxunit.xml
+      testResultsFiles: outputxunit.xml 
+      searchFolder: 'D:\a\1\s\'
+  condition: succeededOrFailed()
+  displayName: 'Publish Test Results outputxunit.xml'
+
