@@ -31,7 +31,7 @@ steps:
   displayName: 'Install dependencies'
 
 - powershell:
-  robot --pythonpath . -x outputxunit.xml ProjectbaseforAzure/Tests
+    robot --pythonpath . -x outputxunit.xml ProjectbaseforAzure/Tests
   displayName: 'Run robot tests'
 
 - task: PublishTestResults@2
