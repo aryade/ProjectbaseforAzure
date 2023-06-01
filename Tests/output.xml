@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230601 11:41:48.491" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230601 11:48:45.085" rpa="false" schemaversion="3">
 <suite id="s1" name="AmazonSearch" source="C:\Users\ett21016\Desktop\ProjectbaseforAzure\Tests\AmazonSearch.robot">
 <kw name="Start test" library="Common_Keywords" type="SETUP">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230601 11:41:48.741" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com/'.</msg>
-<msg timestamp="20230601 11:41:48.748" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
-<status status="PASS" starttime="20230601 11:41:48.740" endtime="20230601 11:41:52.218"/>
+<msg timestamp="20230601 11:48:45.326" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com/'.</msg>
+<msg timestamp="20230601 11:48:45.332" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20230601 11:48:45.326" endtime="20230601 11:48:49.477"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20230601 11:41:52.218" endtime="20230601 11:41:52.378"/>
+<status status="PASS" starttime="20230601 11:48:49.478" endtime="20230601 11:48:49.605"/>
 </kw>
-<status status="PASS" starttime="20230601 11:41:48.740" endtime="20230601 11:41:52.378"/>
+<status status="PASS" starttime="20230601 11:48:45.325" endtime="20230601 11:48:49.605"/>
 </kw>
 <test id="s1-t1" name="Verify Search Fuction of Amazon" line="14">
 <kw name="Verify search result" library="Homepage_keywords">
@@ -22,36 +22,36 @@
 <arg>${INPUTITEMXPATH}</arg>
 <arg>${INPUTITEM}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230601 11:41:52.382" level="INFO">Typing text 'laptop' into text field '//*[@id="twotabsearchtextbox"]'.</msg>
-<status status="PASS" starttime="20230601 11:41:52.381" endtime="20230601 11:41:52.904"/>
+<msg timestamp="20230601 11:48:49.607" level="INFO">Typing text 'laptop' into text field '//*[@id="twotabsearchtextbox"]'.</msg>
+<status status="PASS" starttime="20230601 11:48:49.606" endtime="20230601 11:48:50.036"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${CLICKSEARCHXPATH}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230601 11:41:52.904" level="INFO">Clicking element '//input[@id='nav-search-submit-button']'.</msg>
-<status status="PASS" starttime="20230601 11:41:52.904" endtime="20230601 11:41:56.111"/>
+<msg timestamp="20230601 11:48:50.037" level="INFO">Clicking element '//input[@id='nav-search-submit-button']'.</msg>
+<status status="PASS" starttime="20230601 11:48:50.036" endtime="20230601 11:48:53.161"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>results</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20230601 11:41:56.161" level="INFO">Current page contains text 'results'.</msg>
-<status status="PASS" starttime="20230601 11:41:56.111" endtime="20230601 11:41:56.161"/>
+<msg timestamp="20230601 11:48:53.225" level="INFO">Current page contains text 'results'.</msg>
+<status status="PASS" starttime="20230601 11:48:53.161" endtime="20230601 11:48:53.225"/>
 </kw>
-<status status="PASS" starttime="20230601 11:41:52.379" endtime="20230601 11:41:56.161"/>
+<status status="PASS" starttime="20230601 11:48:49.606" endtime="20230601 11:48:53.225"/>
 </kw>
 <doc>This test case verifies the basic Search</doc>
 <tag>Functionality</tag>
-<status status="PASS" starttime="20230601 11:41:52.378" endtime="20230601 11:41:56.161"/>
+<status status="PASS" starttime="20230601 11:48:49.605" endtime="20230601 11:48:53.226"/>
 </test>
 <kw name="Complete testcase" library="Common_Keywords" type="TEARDOWN">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230601 11:41:56.164" endtime="20230601 11:41:58.513"/>
+<status status="PASS" starttime="20230601 11:48:53.228" endtime="20230601 11:48:55.473"/>
 </kw>
-<status status="PASS" starttime="20230601 11:41:56.163" endtime="20230601 11:41:58.513"/>
+<status status="PASS" starttime="20230601 11:48:53.228" endtime="20230601 11:48:55.473"/>
 </kw>
 <doc>Basic Search Functionality</doc>
-<status status="PASS" starttime="20230601 11:41:48.493" endtime="20230601 11:41:58.513"/>
+<status status="PASS" starttime="20230601 11:48:45.086" endtime="20230601 11:48:55.473"/>
 </suite>
 <statistics>
 <total>
