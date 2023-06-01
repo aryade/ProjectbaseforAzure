@@ -14,6 +14,7 @@ Suite Teardown    Common_Keywords.Complete testcase
 Verify Search Fuction of Amazon
     [Documentation]    This test case verifies the basic Search
     [Tags]    Functionality
+    Sleep    10s
     
     Verify search result
 
