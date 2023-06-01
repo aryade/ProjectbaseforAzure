@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 
 
 *** Variables ***
-${INPUTITEMXPATH}    //*[@id="twotabsearchtextbox"]
+${INPUTITEMXPATH}    id:twotabsearchtextbox
 ${INPUTITEM}    laptop  
 ${CLICKSEARCHXPATH}    //input[@id='nav-search-submit-button'] 
 ${navsginin}    //*[@id="nav-link-accountList"]/span/span
